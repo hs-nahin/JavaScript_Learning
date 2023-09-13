@@ -97,3 +97,32 @@ const greet = function(name) {
 /*
 In summary, function declarations give your function a name and can be used anywhere in your code, while function expressions store the function inside a variable and can only be used after you create the variable. Both allow you to create reusable pieces of code, but they are used in slightly different ways.
 */
+
+// regular function vs arrow function
+
+/*
+Regular Function (Function Declaration or Function Expression):
+
+What It Is: It's like a traditional chef who follows a recipe step by step.
+How It Looks: You use the function keyword to create a function and give it a name, then write the recipe inside curly braces {}.
+Usage: Regular functions are suitable for most situations and have been around in JavaScript for a long time.
+this Keyword: Regular functions have their own this value, which can change depending on how they are called. This makes them versatile for various contexts.
+Example of a regular function:
+*/
+function add(a, b) {
+    return a + b;
+  }
+
+/*
+Arrow Function:
+
+What It Is: It's like a modern chef who uses a shortcut recipe.
+How It Looks: You use an arrow => to create a function without the function keyword. It's often shorter and more concise.
+Usage: Arrow functions are commonly used in modern JavaScript, especially for simple functions or when you want to maintain a consistent this context.
+this Keyword: Arrow functions don't have their own this value. Instead, they inherit the this value from the surrounding code. This can make them more predictable in some cases.
+Example of an arrow function:
+*/
+const add = (a, b) => a + b;
+/*
+In summary, regular functions are versatile and have their own this context, while arrow functions are shorter and inherit this from the surrounding code. The choice between them often depends on your coding style, project requirements, and whether you need to deal with the this context extensively.
+*/
