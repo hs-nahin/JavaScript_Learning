@@ -126,3 +126,36 @@ const add = (a, b) => a + b;
 /*
 In summary, regular functions are versatile and have their own this context, while arrow functions are shorter and inherit this from the surrounding code. The choice between them often depends on your coding style, project requirements, and whether you need to deal with the this context extensively.
 */
+
+// 4. What is the difference between function and loop?
+/*
+Functions and loops are both essential constructs in programming, but they serve different purposes and work in distinct ways. Here's a simple comparison between the two:
+
+Function:
+i.  Purpose:
+   - A function is a reusable block of code that performs a specific task or set of tasks. It encapsulates a piece of functionality that can be called from different parts of a program.
+
+ii. Usage:
+   - Functions are used to organize code into modular and reusable chunks. They help avoid code duplication and make it easier to understand and maintain code.
+
+iii. Execution:
+   - Functions are executed when they are called (invoked) by name. They can take input values (arguments) and optionally return a result.
+
+iv. Control Flow:
+   - Functions do not control the flow of a program by themselves. They execute a set of instructions when called, but they don't repeat themselves like loops.
+
+Loop:
+i.  Purpose:
+ - A loop is used for repeating a set of instructions (block of code) multiple times based on a condition. It automates repetitive tasks.
+
+ii.  Usage:
+- Loops are used when you need to perform a specific action multiple times without writing the same code over and over.
+
+iii. Execution:
+- Loops repeatedly execute a block of code as long as a specified condition is true. They control the flow of a program by repeating a certain task.
+
+iv. Control Flow:
+- Loops directly control the flow of a program by executing the same code block iteratively until a condition is no longer met. They are used for iteration and cycling through data structures like arrays.
+
+In summary, functions are reusable blocks of code that perform specific tasks, while loops are control structures used for repetitive execution of code based on a condition. Functions are typically used for modularizing code and making it more maintainable, while loops are used to automate repetitive tasks and iterate over data. You often use both functions and loops together in a program to achieve complex functionality.
+*/
