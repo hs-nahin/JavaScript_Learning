@@ -98,7 +98,7 @@ const greet = function(name) {
 In summary, function declarations give your function a name and can be used anywhere in your code, while function expressions store the function inside a variable and can only be used after you create the variable. Both allow you to create reusable pieces of code, but they are used in slightly different ways.
 */
 
-// regular function vs arrow function
+//4. regular function vs arrow function
 
 /*
 Regular Function (Function Declaration or Function Expression):
@@ -127,7 +127,8 @@ const add = (a, b) => a + b;
 In summary, regular functions are versatile and have their own this context, while arrow functions are shorter and inherit this from the surrounding code. The choice between them often depends on your coding style, project requirements, and whether you need to deal with the this context extensively.
 */
 
-// 4. What is the difference between function and loop?
+
+// 5. What is the difference between function and loop?
 /*
 Functions and loops are both essential constructs in programming, but they serve different purposes and work in distinct ways. Here's a simple comparison between the two:
 
@@ -146,7 +147,7 @@ iv. Control Flow:
 
 Loop:
 i.  Purpose:
- - A loop is used for repeating a set of instructions (block of code) multiple times based on a condition. It automates repetitive tasks.
+- A loop is used for repeating a set of instructions (block of code) multiple times based on a condition. It automates repetitive tasks.
 
 ii.  Usage:
 - Loops are used when you need to perform a specific action multiple times without writing the same code over and over.
@@ -158,4 +159,38 @@ iv. Control Flow:
 - Loops directly control the flow of a program by executing the same code block iteratively until a condition is no longer met. They are used for iteration and cycling through data structures like arrays.
 
 In summary, functions are reusable blocks of code that perform specific tasks, while loops are control structures used for repetitive execution of code based on a condition. Functions are typically used for modularizing code and making it more maintainable, while loops are used to automate repetitive tasks and iterate over data. You often use both functions and loops together in a program to achieve complex functionality.
+*/
+
+// 6. What is the difference between object and array?
+
+/*
+Objects and arrays are two fundamental data structures in JavaScript, but they serve different purposes and have distinct characteristics. Here's a simplified comparison between objects and arrays:
+
+Objects:
+i. Purpose:
+   - Objects are used to store and organize data in key-value pairs. They are ideal for representing real-world entities and their properties.
+
+ii. Structure:
+   - Objects consist of key-value pairs, where keys are strings (or symbols in modern JavaScript), and values can be of any data type (e.g., strings, numbers, other objects, functions).
+
+iii. Accessing Data:
+   - You access data in objects using the keys. Each key is unique within an object, and it maps to a specific value.
+
+iv. Use Cases:
+   - Objects are commonly used to represent things with multiple characteristics. For example, you might use an object to represent a person with properties like "name," "age," and "address."
+
+Arrays:
+i. Purpose:
+   - Arrays are used to store collections of data, typically of the same data type. They are suitable for ordered lists of items.
+
+ii. Structure:
+   - Arrays are ordered collections of values, and each value is assigned an index starting from 0. The values can be of any data type.
+
+iii. Accessing Data:
+   - You access data in arrays using numerical indices. Arrays are ordered, so you use the index to specify the position of the value you want to access.
+
+iv. Use Cases:
+   - Arrays are used when you need to work with a list of items, such as numbers, strings, or other objects. For instance, you might use an array to store a list of numbers for mathematical operations.
+
+In summary, objects are used for organizing data into named properties (key-value pairs), while arrays are used for storing ordered collections of data with numerical indices. The choice between objects and arrays depends on the structure of your data and the requirements of your program. Often, you will use both objects and arrays in conjunction to represent complex data structures.
 */
