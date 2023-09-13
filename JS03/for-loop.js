@@ -1,3 +1,4 @@
+// Example 1
 var num = [1, 3, 5, 7, 9, 11, 13, 15];
 
 for (var sum = 10; sum < 15; sum++){
