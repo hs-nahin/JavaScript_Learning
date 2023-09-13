@@ -31,3 +31,4 @@ for (var e = 0; e<=20; e+=5){
 for (var o = 1; o <= 10; o+=2){
     console.log(o);
 }
+
