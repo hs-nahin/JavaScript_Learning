@@ -57,3 +57,7 @@ In this loop:
 - The condition `i <= 79` ensures that we stop the loop before reaching 81 (the next even number after 80).
 - `i += 2` increments `i` by 2 in each iteration, ensuring that we only iterate over odd numbers.
 */
+console.log ("Example 2")
+for (i = 41; i <= 69; i+=2){
+    console.log (i);
+}
