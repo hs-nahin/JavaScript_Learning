@@ -8,8 +8,10 @@ let user = {
 };
 
 user.RelationalStatus = "Single";
-user.InterestedPersonName = "Nusrat Jahan Mim";
+var loveName = user.InterestedPersonName = "Nusrat Jahan Mim";
 console.log(user);
+console.log (user.Name);
+console.log ("I love " + loveName)
 
 // Arrays
 let user2 = [
