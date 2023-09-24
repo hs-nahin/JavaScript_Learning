@@ -21,3 +21,14 @@ if (1 > 1){
 } else {
     same ()
 }
+
+// Scenario 4
+const theme = "light";
+let bgColor = theme === "dark" ? "#ffff" : "#0000";
+console.log (bgColor);
+
+// if (theme === "dark"){
+//     bgColor = "#ffff";
+// } else {
+//     bgColor = "#0000";
+// }
