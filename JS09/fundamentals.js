@@ -61,4 +61,4 @@ let Studies = bio.studies;
 let Skill = bio.skill;
 console.log(bio);
 console.log(Name, Age, Studies, Skill);
-console.log(`My Name is : ${Name} and my Age is : ${Age}, I am currently doing my Bachelors in : ${Studies} and I have Skills on : ${Skill[3]}`);
+
