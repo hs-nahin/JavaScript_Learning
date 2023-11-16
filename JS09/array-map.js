@@ -1,5 +1,5 @@
 // Define an array of products with details such as name, price, and brand.
-const product = [
+const products = [
     {name: "laptop", price: 55000, brand: "asus"},
     {name: "phone", price: 15000, brand: "realme"},
     {name: "watch", price: 2000, brand: "xiaomi"},
@@ -7,7 +7,7 @@ const product = [
 ];
 
 // Extract an array of brand names from the products using the map function.
-const brands = product.map(product => product.brand);
+const brands = products.map(product => product.brand);
 
 // Log the array of brand names to the console.
 console.log(brands);
