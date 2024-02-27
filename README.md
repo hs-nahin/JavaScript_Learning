@@ -1,1 +1,2 @@
-# JavaScript_Learning
+# JavaScript Fundamentals
+- Learning and Practicing JavaScript Fundamentals
