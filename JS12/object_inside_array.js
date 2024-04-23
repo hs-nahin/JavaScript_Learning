@@ -2,6 +2,7 @@ var bio = [
     'info',{
         name: 'Nahin',
         age: 24,
+        nationality: 'Bangladeshi'
     },
     'Student'
 ]

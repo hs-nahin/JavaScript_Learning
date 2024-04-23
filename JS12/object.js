@@ -4,6 +4,6 @@ let bio = {
     current_address: 'Dhaka'
 }
 
-bio.original_address = 'Dinajpur';
+bio.permanent_address = 'Dinajpur';
 
 console.log(bio);
