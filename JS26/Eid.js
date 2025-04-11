@@ -10,5 +10,5 @@ if (MoonSeen){
         console.log("Eid is in Chandpur");
     }
 } else {
-    console.log("There wil be no Eid Tomorrow");
+    console.log("There will be no Eid Tomorrow");
 }
