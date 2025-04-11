@@ -7,7 +7,7 @@ if (MoonSeen){
     if (EidInSaudi && EidInChandpur){
         console.log("Tomorrow is Eid in whole Bangladesh"); 
     } else {
-        console.log("Eid is in Chandpur");
+        console.log("Eid is in Chandpur!");
     }
 } else {
     console.log("There will be no Eid Tomorrow");
